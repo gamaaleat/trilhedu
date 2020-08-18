@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrilhEdu - Download</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="downloadpage.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo_escolatrilha.svg">
+        </div>
+
+        <div class="banner">
+            <div class="app-text">
+                <img src="/img/undraw_teaching_f1cm 1.svg">
+            </div>
+
+            <div class="infos">
+                <h2>Baixe agora um superinfográfico!</h2>
+                <form method="POST" action="https://smtl.gama.academy/leads/7f2b6f20-dcac-11ea-91f1-99fb0c9231dc">
+                    <div class="infos-item">
+                        <label for="nome"><b>Seu nome</b></label>
+                        <input name="name" class="infos-input" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" placeholder="Digite seu nome completo"
+                            title="Digite seu nome completo" required />
+                        
+                    </div>
+                    <div class="infos-item">
+                        <label for="email"><b>Seu melhor email</b></label>
+                        <input name="email" class="infos-input" type="email" title="Digite um email válido" placeholder="Digite um email válido"
+                            id="email" required />    
+                    </div>
+                    <input name="redirectTo" type="hidden" value=https://trilhedu.wixsite.com/agradecimento />
+                    <input name="debugMode" type="hidden" value="true" />
+                    <input type="submit" class="btn-submit" />
+                </form>
+
+            </div>
+        </div>
+        <div class="secao-3">
+            <!--Página sobre (About page)-->
+            <h1 id=titulo-3>Feito com amor pela TrilhEdu</h1>
+            <img src="/img/logo_escolatrilha.svg" class="logo-footer">
+        </div>
+    </div>        
+</body>
+
+</html>
