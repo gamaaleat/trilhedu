@@ -4,10 +4,10 @@
 }
 
 body {
-    background-image:url(/img/bg-nemo.svg);
+    background-image:url(/img/nemo_rosa.svg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
 }
 *{
     margin: 0;
