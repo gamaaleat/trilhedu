@@ -31,6 +31,14 @@ body {
     flex: 33%;
     margin-top:180px
 }
+
+#optin{
+  font-family: 'Rubik', sans-serif;
+  display: block;
+  font-size: 13px;
+  margin-bottom: 10;
+}
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width:500px) {
   .column1 {

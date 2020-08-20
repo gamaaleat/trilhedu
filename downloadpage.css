@@ -135,3 +135,9 @@ body {
     outline: 0;
     width: 150px;
 }
+
+#optin{
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    margin-bottom: 10;
+  }
